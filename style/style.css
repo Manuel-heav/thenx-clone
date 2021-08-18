@@ -90,6 +90,8 @@ body{
     font-size: 17px;
 }
 
+
+/* Tomorrow */
 .section-1{
     color: #fff;
     display: flex;
@@ -133,6 +135,12 @@ body{
     margin: 15px 15px 15px 0;
     cursor: pointer;
     border: 1px solid #fff;
+    transition: .4s;
+}
+
+.btn1:hover{
+    color: #000;
+    background-color: #fff;
 }
 
 .section-1-image{
@@ -168,4 +176,57 @@ body{
 .section-2-image{
     margin-top: 30px;
     margin-right: 100px;
+}
+
+.main-footer{
+    height: 50vh;
+    margin-top: 50px;
+    background-image: url('https://dfd5gcc6b7vw5.cloudfront.net/assets/thenx-footer-24e7f3e5fe00928e95944891a14955366b4f613552ef83a87a0703bb8fe0464a.jpg');
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    
+}
+
+
+.main-footer::after{
+    content: "";
+    top: 0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: black;
+    opacity: 0.7;
+}
+.main-footer li{
+    display: block;
+    margin-top: 20px;
+}
+.main-footer > * {
+    z-index: 1;
+}
+
+.main-footer a{
+    color: #9e9e9e;
+    text-decoration: none;
+    font-size: 19px;
+    letter-spacing: .1em;
+}
+
+.company, .social{
+    margin: auto;
+    width: 70%;
+}
+
+.title{
+    color: #fff !important;
+    font-size: 30px !important;
+    font-weight: bold;
+}
+
+.main-footer a:hover{
+    color: #fff;
 }
