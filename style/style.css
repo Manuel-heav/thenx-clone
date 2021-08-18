@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+:root{
+    --primaryBtn: #0c57fb;
+}
 *{
     margin: 0;
     padding: 0;
@@ -45,7 +48,7 @@ body{
 }
 
 .btn-primary{
-    background-color: #0c57fb;
+    background-color: var(--primaryBtn);
     color: #fff !important;
     font-weight: lighter !important; 
     padding: 9px;
@@ -91,6 +94,78 @@ body{
     color: #fff;
     display: flex;
     justify-content: space-between;
-    width: 85%;
+    width: 80%;
     margin: auto;
+    line-height: 1.2;
+}
+
+.section-1-text{
+    margin-top: 150px;
+}
+.section-1-text p{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.section-1-text h1{
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.btn2{
+    background-color: var(--primaryBtn);
+    color: #fff;
+    font-weight: lighter;
+    font-size: 19px; 
+    padding: 16px;
+    border-radius: 5px;
+    margin: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn1{
+    background-color: #000;
+    color: #fff;
+    font-size: 19px;
+    padding: 16px;
+    border-radius: 5px;
+    margin: 15px 15px 15px 0;
+    cursor: pointer;
+    border: 1px solid #fff;
+}
+
+.section-1-image{
+    margin-top: 30px;
+}
+
+.section-2{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    line-height: 1.2;
+}
+
+.section-2-text{
+    margin-top: 150px;
+}
+
+.section-2-text p{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.section-2-text h1{
+    font-size: 40px;
+    margin-bottom: 25px
+}
+
+.section-2 .btn2{
+    margin: 15px 15px 15px 0;
+}
+.section-2-image{
+    margin-top: 30px;
+    margin-right: 100px;
 }
