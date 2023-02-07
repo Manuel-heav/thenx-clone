@@ -230,3 +230,60 @@ body{
 .main-footer a:hover{
     color: #fff;
 }
+
+
+.openMenu{
+    font-size: 25px;
+    margin: 20px;
+    display: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+
+.closeMenu{
+    font-size: 25px;
+    display: none;
+    cursor: pointer;
+    color: #fff;
+}
+@media screen and (max-width: 1000px) {
+
+    nav{
+      height: 100vh;
+      position: fixed;
+      top: 0;
+      right: 0;
+      left:0;
+      z-index: 100;  
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: #000;
+      transition: top 0.7s ease;
+      display: none;
+    }
+
+    .closeMenu{
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    .openMenu{
+        display: block;
+    }
+
+    #main-header li{
+        display: block;
+    }
+
+    .btn-primary{
+        display: none;
+    }
+
+    .section-1-image, .section-2-image{
+        display: none;
+    }
+}
