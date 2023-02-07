@@ -79,19 +79,17 @@ body{
 }
 
 #showcase h1{
-    z-index: 10;
+    z-index: 2;
     color: #fff;
     font-size: 38px;
 }
 
 #showcase p{
-    z-index: 10;
+    z-index: 2;
     color: #fff;
     font-size: 17px;
 }
 
-
-/* Tomorrow */
 .section-1{
     color: #fff;
     display: flex;
